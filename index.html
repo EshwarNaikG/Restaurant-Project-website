@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+<body>
+
+<header>
+    <h1>🍴 Delicious Restaurant</h1>
+    <nav>
+        <ul class="nav-links"> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">&#9776;</div>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Welcome to Delicious Restaurant</h2>
+    <p>Fresh Food | Great Taste | Best Service</p>
+    <button onclick="orderNow()">Order Now</button>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="card">🍕 Pizza - ₹299</div>
+        <div class="card">🍔 Burger - ₹149</div>
+        <div class="card">🍝 Pasta - ₹249</div>
+        <div class="card">🥗 Salad - ₹199</div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We serve delicious food with high quality ingredients and love ❤️</p>
+    <pre>Delicious Restaurant is a place where taste meets quality. 
+We serve fresh and hygienic food made with high-quality ingredients. 
+Our goal is to provide delicious meals and excellent service to our customers.</pre>
+</section>
+
+<section id="contact">
+    <div class="card1"> 
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Delicious Restaurant | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>
+
+
+
+
