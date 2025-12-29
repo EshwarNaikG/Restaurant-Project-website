@@ -117,3 +117,26 @@ pre {
     font-size: 16px;
     font-weight: 200;
 }
+
+
+.card2{
+    background:white;
+    padding: 20px;
+    width: 1300px;
+    height: 300px;
+    border-radius: 20px;
+    font-size: 18px;
+    align-items: center;
+    color: black;
+   
+}
+#about{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
